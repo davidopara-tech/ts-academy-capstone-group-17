@@ -1,0 +1,111 @@
+h2{
+    color: #164BAF;
+}
+
+h2, p {
+    text-align: left;
+}
+
+p, caption{
+    color: black;
+}
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #0059ff white;
+  background-color: white;
+  padding: 40px 10px;
+  margin: 0 auto;
+}
+
+caption {
+  text-align: left;
+  font-size: small;
+   margin-bottom: 20px;
+}
+
+.table-container h2{
+  margin-top: 10px;
+}
+
+.table-container p{
+  margin-top: 8px;
+  font-size: medium;
+}
+
+ .table-wrapper{
+   width: 100%;
+    text-align: center;
+} 
+
+.table-wrapper table{
+  width: 100%;
+  min-width: 800px;
+  margin-top: 30px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  overflow: hidden;
+  font-size: 18px;
+} 
+
+th{
+  background-color:  #164BAF;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+td {
+   text-align: center;
+   background-color: #D1E3FF;
+   padding: 10px 15px;
+}
+
+.table-wrapper th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.table-wrapper th:last-child {
+  border-top-right-radius: 15px;
+
+}
+
+.table-wrapper tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+.table-wrapper tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+.color{
+    color: white;
+}
+
+.planet-type{
+ background-color: #D1E3FF;
+ color: black;
+}
+
+td {
+    color: black;
+    background-color: #F2F7FF;
+}
+
+@media screen and (max-width: 768px) {
+ td, th{
+    padding: 8px;
+    font-size: 12px;
+ }   
+
+ .table-container h2 {
+    font-size: 20px;
+ }
+
+ .table-container p {
+    font-size: 14px;
+ }
+
+ /* .table-container { */
+  /* display: none; */
+/* } */
+}
